@@ -1,0 +1,341 @@
+[
+  {
+    "id": "egm",
+    "title": "EGM: Efficient Visual Grounding Language Models",
+    "authors": "Guanqi Zhan*, Changye Li*, Zhijian Liu, Yao Lu, Yi Wu, Song Han, Ligeng Zhu",
+    "venue": "ECCV",
+    "year": 2026,
+    "summary": "Efficient spatial reasoning with small vision-language models. Curated reasoning data, supervised fine-tuning, and reinforcement learning improve visual and amodal grounding.",
+    "tags": [
+      "Foundation models",
+      "Physical understanding",
+      "VLM · Reasoning · RL"
+    ],
+    "paper": "https://arxiv.org/abs/2601.13633",
+    "project": "https://nvlabs.github.io/EGM/",
+    "code": "https://github.com/NVlabs/EGM",
+    "award": "",
+    "topics": [
+      "VLMs",
+      "Multimodal reasoning",
+      "SFT + RL",
+      "Test-time scaling",
+      "Data curation",
+      "Visual grounding"
+    ]
+  },
+  {
+    "id": "idpp",
+    "title": "Inferring Dynamic Physical Properties from Video Foundation Models",
+    "authors": "Guanqi Zhan*, Xianzheng Ma*, Weidi Xie, Andrew Zisserman",
+    "venue": "CVPR Workshops · VGBE",
+    "year": 2026,
+    "summary": "Do video foundation models learn the physics behind motion? Probing generative and self-supervised representations for elasticity, viscosity, and friction, with PhysVid evaluating transfer from simulated to real-world videos.",
+    "tags": [
+      "Foundation models",
+      "Physical understanding",
+      "Datasets & benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2510.02311",
+    "project": "https://www.robots.ox.ac.uk/~vgg/research/idpp/",
+    "code": "https://github.com/xianzhengma/idpp",
+    "award": "Best Paper Runner-Up",
+    "topics": [
+      "Video foundation models",
+      "Diffusion models",
+      "Physical properties",
+      "Representation learning",
+      "Synthetic-to-real",
+      "Datasets & benchmarks"
+    ]
+  },
+  {
+    "id": "gr3d",
+    "title": "Grounded 3D-Aware Spatial Vision-Language Modeling",
+    "authors": "An-Chieh Cheng, Yang Fu, Yatai Ji, Ligeng Zhu, Guanqi Zhan, Zhuoyang Zhang, Zhaojing Yang, Song Han, Yao Lu, Pavlo Molchanov, Vidya Nariyambut Murali, Jan Kautz, Xiaolong Wang, Hongxu Yin, Sifei Liu",
+    "venue": "CVPR",
+    "year": 2026,
+    "summary": "Connecting visual evidence to metric 3D space. Grounded visual chain-of-thought and monocular 3D grounding help vision-language models reason about object locations, distances, and spatial relationships.",
+    "tags": [
+      "Foundation models",
+      "Physical understanding",
+      "VLM · Spatial reasoning"
+    ],
+    "paper": "https://arxiv.org/abs/2605.30307",
+    "project": "https://www.anjiecheng.me/gr3d",
+    "code": "",
+    "award": "",
+    "topics": [
+      "VLMs",
+      "3D spatial reasoning",
+      "Grounded chain-of-thought",
+      "Monocular 3D grounding",
+      "Data curation"
+    ]
+  },
+  {
+    "id": "targo",
+    "title": "TARGO and TARGO-Net: Benchmarking Target-driven Object Grasping under Occlusions",
+    "authors": "Yan Xia*, Ran Ding*, Ziyuan Qin*, Guanqi Zhan, Kaichen Zhou, Long Yang, Hao Dong, Daniel Cremers",
+    "venue": "IJCV",
+    "year": 2026,
+    "summary": "Grasping a chosen object in a partially observed world. An occlusion-aware benchmark and a target–scene model combine shape completion with clutter context for robust target-driven robotic grasping.",
+    "tags": [
+      "Embodied interaction",
+      "Physical understanding",
+      "Datasets & benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2407.06168",
+    "project": "https://targo-benchmark.github.io/",
+    "code": "https://github.com/TARGO-benchmark/TARGO",
+    "award": "",
+    "topics": [
+      "Robotic manipulation",
+      "Occlusion reasoning",
+      "Shape completion",
+      "3D scene understanding",
+      "Datasets & benchmarks"
+    ]
+  },
+  {
+    "id": "elip",
+    "title": "ELIP: Enhanced Visual-Language Foundation Models for Image Retrieval",
+    "authors": "Guanqi Zhan*, Yuanpei Liu*, Kai Han, Weidi Xie, Andrew Zisserman",
+    "venue": "IEEE CBMI",
+    "year": 2025,
+    "summary": "Adapting frozen vision-language foundation models efficiently. Text-conditioned visual prompts, hard-sample mining, and curated training data align visual representations with language queries and improve retrieval generalization.",
+    "tags": [
+      "Foundation models",
+      "VLM · Data curation",
+      "Datasets & benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2502.15682",
+    "project": "",
+    "code": "https://github.com/ypliubit/ELIP",
+    "award": "Best Paper Candidate",
+    "topics": [
+      "Vision-language foundation models",
+      "Efficient adaptation",
+      "Data curation",
+      "Generalization",
+      "Image retrieval"
+    ]
+  },
+  {
+    "id": "physical",
+    "title": "A General Protocol to Probe Large Vision Models for 3D Physical Understanding",
+    "authors": "Guanqi Zhan, Chuanxia Zheng, Weidi Xie, Andrew Zisserman",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "summary": "What physical knowledge emerges from large-scale pretraining? A common protocol probes generative and discriminative models for geometry, materials, support, lighting, occlusion, and depth, connecting learned representations to 3D physical understanding.",
+    "tags": [
+      "Foundation models",
+      "Physical understanding",
+      "Datasets & benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2310.06836",
+    "project": "https://www.robots.ox.ac.uk/~vgg/research/phy-sd/",
+    "code": "https://github.com/Championchess/phy-sd",
+    "award": "",
+    "topics": [
+      "Foundation models",
+      "Diffusion representations",
+      "3D physical understanding",
+      "Representation learning",
+      "Datasets & benchmarks"
+    ]
+  },
+  {
+    "id": "amodal",
+    "title": "Amodal Ground Truth and Completion in the Wild",
+    "authors": "Guanqi Zhan, Chuanxia Zheng, Weidi Xie, Andrew Zisserman",
+    "venue": "CVPR",
+    "year": 2024,
+    "summary": "Inferring complete objects beyond what is visible. Pretrained Stable Diffusion features support amodal segmentation, while a 3D-driven data pipeline creates real-image ground truth for evaluating completion with MP3D-Amodal.",
+    "tags": [
+      "Foundation models",
+      "Physical understanding",
+      "Generation & 3D",
+      "Datasets & benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2312.17247",
+    "project": "https://www.robots.ox.ac.uk/~vgg/research/amodal/",
+    "code": "https://github.com/Championchess/Amodal-Completion-in-the-Wild",
+    "award": "",
+    "topics": [
+      "Diffusion models",
+      "Generative priors",
+      "Amodal completion",
+      "3D scene understanding",
+      "Datasets & benchmarks"
+    ]
+  },
+  {
+    "id": "nav",
+    "title": "InstructNav: Zero-shot System for Generic Instruction Navigation in Unexplored Environment",
+    "authors": "Yuxing Long*, Wenzhe Cai*, Hongcheng Wang, Guanqi Zhan, Hao Dong",
+    "venue": "CoRL",
+    "year": 2024,
+    "summary": "From language and visual observations to embodied decisions. Dynamic Chain-of-Navigation and multi-sourced value maps guide robots through unexplored environments under diverse instructions, without navigation-specific training.",
+    "tags": [
+      "Foundation models",
+      "Embodied interaction",
+      "VLM · Planning"
+    ],
+    "paper": "https://arxiv.org/abs/2406.04882",
+    "project": "https://sites.google.com/view/instructnav",
+    "code": "https://github.com/LYX0501/InstructNav",
+    "award": "",
+    "topics": [
+      "Embodied foundation models",
+      "Multimodal reasoning",
+      "Zero-shot navigation",
+      "Language-conditioned planning",
+      "3D spatial maps"
+    ]
+  },
+  {
+    "id": "clutter",
+    "title": "Broadcasting Support Relations Recursively from Local Dynamics for Object Retrieval in Clutters",
+    "authors": "Yitong Li*, Ruihai Wu*, Haoran Lu, Chuanruo Ning, Yan Shen, Guanqi Zhan, Hao Dong",
+    "venue": "Robotics: Science and Systems",
+    "year": 2024,
+    "summary": "Reasoning about physical dependencies before acting. Local dynamics propagate through a support graph to infer which objects support others and plan step-by-step object retrieval in cluttered real-world scenes.",
+    "tags": [
+      "Physical understanding",
+      "Embodied interaction",
+      "Relational reasoning"
+    ],
+    "paper": "https://arxiv.org/abs/2406.02283",
+    "project": "",
+    "code": "https://github.com/lyttttt3333/Broadcast_Support_Relation",
+    "award": "",
+    "topics": [
+      "Physical scene modeling",
+      "Support relations",
+      "Dynamics reasoning",
+      "Robotic manipulation",
+      "Object retrieval"
+    ]
+  },
+  {
+    "id": "env",
+    "title": "Learning Environment-Aware Affordance for 3D Articulated Object Manipulation under Occlusions",
+    "authors": "Ruihai Wu*, Kai Cheng*, Yan Shen, Chuanruo Ning, Guanqi Zhan, Hao Dong",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "summary": "Learning where a robot can act under occlusion. Environment-aware affordances incorporate surrounding objects and robot constraints, using contrastive learning to connect 3D observations with feasible articulated-object manipulation.",
+    "tags": [
+      "Embodied interaction",
+      "Physical understanding",
+      "Affordance learning"
+    ],
+    "paper": "https://arxiv.org/abs/2309.07510",
+    "project": "https://chengkaiacademycity.github.io/EnvAwareAfford/",
+    "code": "https://github.com/chengkaiAcademyCity/EnvAwareAfford",
+    "award": "",
+    "topics": [
+      "Robotic manipulation",
+      "3D affordances",
+      "Occlusion reasoning",
+      "Physical scene modeling",
+      "Contrastive learning"
+    ]
+  },
+  {
+    "id": "score",
+    "title": "Score-PA: Score-based 3D Part Assembly",
+    "authors": "Junfeng Cheng, Mingdong Wu, Ruiyuan Zhang, Guanqi Zhan, Chao Wu, Hao Dong",
+    "venue": "BMVC",
+    "year": 2023,
+    "summary": "Generating coherent 3D structures from unassembled parts. Score-based modeling captures diverse plausible assemblies, with a fast predictor–corrector sampler for efficient generation of part configurations.",
+    "tags": [
+      "Generation & 3D",
+      "Embodied interaction",
+      "Score-based models"
+    ],
+    "paper": "https://arxiv.org/abs/2309.04220",
+    "project": "https://proceedings.bmvc2023.org/438/",
+    "code": "https://github.com/J-F-Cheng/Score-PA_Score-based-3D-Part-Assembly",
+    "award": "Oral",
+    "topics": [
+      "Score-based generative models",
+      "3D part assembly",
+      "Geometric reasoning",
+      "Diverse generation",
+      "Efficient sampling"
+    ]
+  },
+  {
+    "id": "tri",
+    "title": "A Tri-Layer Plugin to Improve Occluded Detection",
+    "authors": "Guanqi Zhan, Weidi Xie, Andrew Zisserman",
+    "venue": "BMVC",
+    "year": 2022,
+    "summary": "Understanding the scene structure behind occlusion. Joint reasoning over an object, its occluder, and its occludee improves detection and segmentation of partially hidden objects.",
+    "tags": [
+      "Physical understanding",
+      "Occlusion reasoning",
+      "Datasets & benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2210.10046",
+    "project": "",
+    "code": "https://github.com/Championchess/A-Tri-Layer-Plugin-to-Improve-Occluded-Detection",
+    "award": "",
+    "topics": [
+      "Occlusion reasoning",
+      "Structured representations",
+      "Detection & segmentation",
+      "Scene understanding",
+      "Datasets & benchmarks"
+    ]
+  },
+  {
+    "id": "dgl",
+    "title": "Generative 3D Part Assembly via Dynamic Graph Learning",
+    "authors": "Jialei Huang*, Guanqi Zhan*, Qingnan Fan, Kaichun Mo, Lin Shao, Baoquan Chen, Leonidas Guibas, Hao Dong",
+    "venue": "NeurIPS",
+    "year": 2020,
+    "summary": "From a set of parts to a coherent 3D object. Dynamic graph reasoning learns relationships between parts and iteratively refines their poses, generating plausible assemblies without semantic part labels.",
+    "tags": [
+      "Generation & 3D",
+      "Embodied interaction",
+      "Geometric reasoning"
+    ],
+    "paper": "https://arxiv.org/abs/2006.07793",
+    "project": "https://hyperplane-lab.github.io/Generative-3D-Part-Assembly/",
+    "code": "https://github.com/hyperplane-lab/Generative-3D-Part-Assembly",
+    "award": "",
+    "topics": [
+      "Generative 3D modeling",
+      "Dynamic graph networks",
+      "Geometric reasoning",
+      "Structured representations",
+      "Part assembly"
+    ]
+  },
+  {
+    "id": "dlgan",
+    "title": "DLGAN: Disentangling Label-Specific Fine-Grained Features for Image Manipulation",
+    "authors": "Guanqi Zhan*, Yihao Zhao*, Bingchan Zhao, Haoqi Yuan, Baoquan Chen, Hao Dong",
+    "venue": "arXiv",
+    "year": 2019,
+    "summary": "Controllable generation through disentangled representations. Separating label-specific and label-independent features enables discrete attributes and reference images to guide fine-grained manipulation and cross-domain interpolation.",
+    "tags": [
+      "Generation & 3D",
+      "Generative models",
+      "Disentanglement"
+    ],
+    "paper": "https://arxiv.org/abs/1911.09943",
+    "project": "",
+    "code": "https://github.com/Championchess/DLGAN",
+    "award": "",
+    "topics": [
+      "Generative models",
+      "Disentangled representations",
+      "Controllable generation",
+      "Image manipulation",
+      "Cross-domain interpolation"
+    ]
+  }
+]
